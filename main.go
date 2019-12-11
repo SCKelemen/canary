@@ -1,14 +1,14 @@
 package main 
 
 import (
-"exclaim"
-"yell"
+	"exclaim"
+	"yell"
 	"fmt"
 )
 
 
 func main() {
     fmt.Println("Sanity Check")
-    yell.Yell("Sanity Check")
-    exclaim.Exclaim("Sanity Check")
+    fmt.Println(yell.Yell("Sanity Check"))
+    fmt.Println(exclaim.Exclaim("Sanity Check"))
 }

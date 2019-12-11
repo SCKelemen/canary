@@ -1,3 +1,3 @@
-module github.com/SCKelemen/modules/yell
+module github.com/SCKelemen/canary/yell
 
 go 1.13
